@@ -1,0 +1,61 @@
+<mat-sidenav-container fullscreen>
+    <mat-sidenav #sidenav mode="side">
+        <mat-list role="list" class="mat-list">
+            <mat-list-item role="listitem">
+                <a href="">Home</a> 
+            </mat-list-item>
+            <mat-list-item role="listitem">
+                <a href="">Vehicules</a> 
+            </mat-list-item>
+            <mat-list-item role="listitem">
+                <a href="">Services</a> 
+            </mat-list-item>
+            <mat-list-item role="listitem">
+                <a href="">Featured</a> 
+            </mat-list-item>
+            <mat-list-item role="listitem">
+                <a href="">Review</a> 
+            </mat-list-item>
+            <mat-list-item role="listitem">
+                <a href="">Contact</a> 
+            </mat-list-item>
+          </mat-list>
+    </mat-sidenav>
+
+    
+   
+    <mat-toolbar class="mat-tool">
+        <button mat-icon-button 
+                (click)="sidenav.toggle()"
+                id="btn-sidenav"
+                (click)="changeButtonIcon()">
+          <mat-icon>{{button}}</mat-icon>
+        </button>
+        <span class="logo-center"></span>
+        <a href="#" class="logo"><span>BUY</span>car</a>
+        
+        <span class="spacer"></span>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Vehicules</a>
+            <a href="">Services</a>
+            <a href="">Featured</a>
+            <a href="">Review</a>
+            <a href="">Contact</a>
+        </nav>
+        
+        
+        
+        <span class="example-spacer"></span>
+        <button mat-raised-button 
+                class="btn-login"
+                (click)="login()">
+                    Login
+        </button>
+        <button mat-icon-button 
+                class="user-icon">
+          <mat-icon>person</mat-icon>
+        </button>
+      </mat-toolbar>
+</mat-sidenav-container>
+  
