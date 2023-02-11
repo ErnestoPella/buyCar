@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: 'auth',
     loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)
+  },
+  {
+    path: 'buycar',
+    loadChildren: () => import('./buycar/buycar.module').then(m => m.BuycarModule)
   }
 ];
 
