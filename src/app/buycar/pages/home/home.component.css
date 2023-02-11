@@ -60,6 +60,21 @@ mat-list-item a:hover{
 
 
 
+.home{
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.home h1{
+    margin-top: 6rem;
+    font-size: 100px;
+}
+.home img{
+    width: 100%;
+}
+
+
+
 @media(max-width: 991px){
 
     .btn-login, .navbar{
