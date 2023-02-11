@@ -59,13 +59,25 @@
       </mat-toolbar>
 
 
-      <div class="home">
+      <section class="home">
         <h1 class="home-parallax">FIND YOUR CAR</h1>
         <img class="home-parallax mt-5" data-speed="5" src="../../../../assets/image/home-img.png">
         <button mat-raised-button>
             Explore Cars
         </button>
-      </div>
+      </section>
+
+      <section class="icons-container row mt-5">
+        
+        <div class="row">
+            <div class="col-md-3" *ngFor="let statuss of status">
+                <app-status-card [statuss]="statuss"></app-status-card>
+            </div>
+        
+        </div>
+            
+        
+      </section>
 
 
 

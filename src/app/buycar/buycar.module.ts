@@ -5,11 +5,13 @@ import { BuycarRoutingModule } from './buycar-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
+import { StatusCardComponent } from './components/status-card/status-card.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    StatusCardComponent
   ],
   imports: [
     CommonModule,
