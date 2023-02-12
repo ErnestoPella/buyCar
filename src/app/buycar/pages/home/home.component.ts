@@ -17,17 +17,17 @@ export class HomeComponent {
       title: 'branches'
     },
     {
-      icon: 'person',
+      icon: 'groups',
       status: 590,
       title: 'happy clients'
     },
     {
-      icon: 'sell car',
+      icon: 'directions_car_filled',
       status: 890,
       title: 'new cars'
     },
     {
-      icon: 'sell',
+      icon: 'car_rental',
       status: 4770,
       title: 'cars sold'
     }

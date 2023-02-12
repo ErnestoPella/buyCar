@@ -1,6 +1,12 @@
-<mat-card-header>
-    <div mat-card-avatar><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="{{statuss.icon}}"></mat-icon>
-    </div>
-    <mat-card-title>{{statuss.status}}+</mat-card-title>
-    <mat-card-subtitle>{{statuss.title}}</mat-card-subtitle>
-</mat-card-header>
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar class="card-icon">
+            <mat-icon aria-hidden="false" 
+                      aria-label="Example home icon" 
+                      fontIcon="{{statuss.icon}}">
+            </mat-icon>
+        </div>
+        <mat-card-title id="status">{{statuss.status}}+</mat-card-title>
+        <mat-card-subtitle id="title">{{statuss.title | titlecase}}</mat-card-subtitle>
+    </mat-card-header>
+</mat-card>

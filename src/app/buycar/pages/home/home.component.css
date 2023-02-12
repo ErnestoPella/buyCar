@@ -8,6 +8,7 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
+
 *{
     text-decoration: none;
     height: auto;
@@ -76,11 +77,16 @@ mat-list-item a:hover{
     width: 100%;
 }
 
-
+.container{
+    background-color: #eee;
+}
 .icons-container{
     background-color: #eee;
-    width: 100%;
-    height: 20%;
+    height: auto;
+}
+
+.icons-container:hover{
+    color: #130f40;
 }
 
 

@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'buycar',
     loadChildren: () => import('./buycar/buycar.module').then(m => m.BuycarModule)
+  },
+  {
+    path:'**',
+    redirectTo: 'buycar'
   }
 ];
 

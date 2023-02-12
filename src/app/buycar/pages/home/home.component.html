@@ -67,17 +67,27 @@
         </button>
       </section>
 
-      <section class="icons-container row mt-5">
-        
-        <div class="row">
-            <div class="col-md-3" *ngFor="let statuss of status">
-                <app-status-card [statuss]="statuss"></app-status-card>
-            </div>
-        
+      
+      <section class="icons-container mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5 mb-5"*ngFor="let statuss of status">
+                    <div class="sta" >
+                        <app-status-card [statuss]="statuss"></app-status-card>
+                    </div>
+                </div>
+           </div>
         </div>
-            
         
       </section>
+       
+
+
+        <section class=" row">
+            <h1 class="heading">popular <span>vehicules</span></h1>
+        </section>
+      
+      
 
 
 
