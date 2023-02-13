@@ -32,7 +32,7 @@
           <mat-icon>{{button}}</mat-icon>
         </button>
         <span class="logo-center"></span>
-        <a href="#" class="logo"><span>BUY</span>car</a>
+        <a href="#" class="logo fw-bold"><span>BUY</span>car</a>
         
         <span class="spacer"></span>
         <nav class="navbar">
@@ -60,7 +60,7 @@
 
 
       <section class="home">
-        <h1 class="home-parallax">FIND YOUR CAR</h1>
+        <h1 class="home-parallax fw-bold">FIND YOUR CAR</h1>
         <img class="home-parallax mt-5" data-speed="5" src="../../../../assets/image/home-img.png">
         <button mat-raised-button>
             Explore Cars
@@ -68,23 +68,28 @@
       </section>
 
       
-      <section class="icons-container mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 mt-5 mb-5"*ngFor="let statuss of status">
-                    <div class="sta" >
-                        <app-status-card [statuss]="statuss"></app-status-card>
+        <section class="icons-container my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-5 mb-5"*ngFor="let statuss of status">
+                        <div class="sta" >
+                            <app-status-card [statuss]="statuss"></app-status-card>
+                        </div>
                     </div>
                 </div>
-           </div>
-        </div>
-        
-      </section>
+            </div>
+        </section>
        
 
 
-        <section class=" row">
-            <h1 class="heading">popular <span>vehicules</span></h1>
+        <section class="carousel">
+            <div class="container-fluid my-5">
+                <h1 class="text-center fw-bold display-1 mb-5">Popular <span class="text-warning">Vehicles</span></h1>
+                <div class="row">
+                    <app-carousel></app-carousel>
+                </div>
+            </div>
+            
         </section>
       
       

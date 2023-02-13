@@ -27,6 +27,7 @@
 .logo{
     font-size: 2rem;
     color: black;
+    cursor: default;
 }
 .logo span{
     color: #f9d806;
@@ -88,6 +89,8 @@ mat-list-item a:hover{
 .icons-container:hover{
     color: #130f40;
 }
+
+
 
 
 

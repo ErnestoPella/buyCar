@@ -6,18 +6,21 @@ import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { StatusCardComponent } from './components/status-card/status-card.component';
-
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    StatusCardComponent
+    StatusCardComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,
     BuycarRoutingModule,
     SharedModule,
-    MaterialModule
+    MaterialModule,
+    CarouselModule,
   ],
   exports: [
     HomeComponent

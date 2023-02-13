@@ -1,0 +1,76 @@
+{
+    "cars":[
+        {
+            "id": 1,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-1.png"
+        },
+        {
+            "id": 2,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-2.png"
+        },
+        {
+            "id": 3,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-3.png"
+        },
+        {
+            "id": 4,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-4.png"
+        },
+        {
+            "id": 5,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-5.png"
+        },
+        {
+            "id": 6,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-6.png"
+        },
+        {
+            "id": 7,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-7.png"
+        },
+        {
+            "id": 8,
+            "price": 65000,
+            "year": 2021,
+            "transmition": "automatic",
+            "fuel": "oil",
+            "Maxmph": 183,
+            "url":"../../../assets/image/car-8.png"
+        }
+    ]
+}
