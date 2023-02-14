@@ -4,11 +4,11 @@ import { Car } from '../../interfaces/car.interface';
 import { CanLoad } from '@angular/router';
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  selector: 'app-car-card',
+  templateUrl: './car-card.component.html',
+  styleUrls: ['./car-card.component.css']
 })
-export class CarouselComponent{
+export class CarCardComponent{
 
   @Input() car!: Car;
 

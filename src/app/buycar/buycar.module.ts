@@ -6,14 +6,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { StatusCardComponent } from './components/status-card/status-card.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CarCardComponent } from './components/car-card/car-card.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     StatusCardComponent,
-    CarouselComponent
+    CarCardComponent
   ],
   imports: [
     CommonModule,
