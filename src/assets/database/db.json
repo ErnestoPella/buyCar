@@ -29,8 +29,8 @@
         },
         {
             "id": 4,
-            "price": 65000,
-            "year": 2021,
+            "price": 45000,
+            "year": 2020,
             "transmition": "automatic",
             "fuel": "oil",
             "Maxmph": 183,
@@ -38,7 +38,7 @@
         },
         {
             "id": 5,
-            "price": 65000,
+            "price": 15000,
             "year": 2021,
             "transmition": "automatic",
             "fuel": "oil",
@@ -47,7 +47,7 @@
         },
         {
             "id": 6,
-            "price": 65000,
+            "price": 25000,
             "year": 2021,
             "transmition": "automatic",
             "fuel": "oil",
@@ -56,7 +56,7 @@
         },
         {
             "id": 7,
-            "price": 65000,
+            "price": 12000,
             "year": 2021,
             "transmition": "automatic",
             "fuel": "oil",
@@ -65,7 +65,7 @@
         },
         {
             "id": 8,
-            "price": 65000,
+            "price": 16000,
             "year": 2021,
             "transmition": "automatic",
             "fuel": "oil",

@@ -110,4 +110,13 @@ mat-list-item a:hover{
     .mat-tool{
         padding: 0 16px;
     }
+
+}
+
+@media(max-width: 401px){
+
+    .status{
+        margin-top: 0;
+    }
+
 }

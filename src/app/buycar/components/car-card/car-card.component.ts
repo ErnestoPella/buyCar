@@ -16,11 +16,11 @@ export class CarCardComponent{
 
 
   customOptions: any = {
-    loop: true,
-    mouseDrag: true,
-    touchDrag: true,
-    pullDrag: true,
-    dots: true,
+    loop: false,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
     navSpeed: 7,
     navText: ['', ''],
     responsive: {
