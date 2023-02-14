@@ -1,5 +1,5 @@
 
-<div class="conatiner">
+<div class="container">
   <owl-carousel-o class="container" [options]="customOptions">
     <ng-template carouselSlide>
       <img src="{{car.url}}">
@@ -12,7 +12,7 @@
           <span class="list-item fw-bold"></span>{{car.year}}
           <span class="list-item fw-bold"></span>{{car.transmition | uppercase}}
           <span class="list-item fw-bold"></span>{{car.fuel | uppercase}}
-          <span class="list-item fw-bold"></span>{{car.Maxmph}}
+          <span class="list-item fw-bold"></span>{{car.Maxmph}} mph
         </p>
         <a href="#" class="btn btn-warning">Check out</a>
       </div>

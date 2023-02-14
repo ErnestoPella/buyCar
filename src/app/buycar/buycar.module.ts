@@ -8,12 +8,14 @@ import { MaterialModule } from '../material/material.module';
 import { StatusCardComponent } from './components/status-card/status-card.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarCardComponent } from './components/car-card/car-card.component';
+import { ServiceCardComponent } from './components/service-card/service-card.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     StatusCardComponent,
-    CarCardComponent
+    CarCardComponent,
+    ServiceCardComponent
   ],
   imports: [
     CommonModule,

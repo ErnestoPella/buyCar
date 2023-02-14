@@ -84,20 +84,30 @@
        
 
 
-        <section class="carousel">
+        <section class="car-card">
             <div class="container-fluid">
                 <h1 class="text-center fw-bold ">Popular <span class="text-warning">Vehicles</span></h1>
                 <div class="row">
                     <div class="col-md-3 col-sm-6" *ngFor="let car of cars">
                         <app-car-card [car] = "car"></app-car-card>
-                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-card my-5">
+            <div class="container-fluid mb-5">
+                <h1 class="text-center fw-bold">Our <span class="text-warning">Services</span></h1>
+            </div>
+            <div class="service container ">
+                <div class="row">
+                    <div class="col-md-4 mb-3" *ngFor="let service of services">
+                        <app-service-card [service] = "service"></app-service-card>
                     </div>
                 </div>
             </div>
             
         </section>
-      
-      
 
 
 

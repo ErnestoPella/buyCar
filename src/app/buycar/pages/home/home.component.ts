@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { Status } from '../../interfaces/status.interface';
 import { Car } from '../../interfaces/car.interface';
 import { CarService } from '../../services/car.service';
+import { Service } from '../../interfaces/service.interface';
 
 @Component({
   selector: 'app-home',
@@ -35,6 +36,39 @@ export class HomeComponent implements OnInit{
       title: 'cars sold'
     }
   ];
+
+  services: Service[] = [
+    {
+      icon:"directions_car_filled",
+      title: "Car Selling",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      icon:"handyman",
+      title: "Parts Repair",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      icon:"car_crash",
+      title: "Car Insurance",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      icon:"electric_car",
+      title: "Battery Replacement",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      icon:"local_gas_station",
+      title: "Oil Change",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      icon:"support_agent",
+      title: "24/7 Support",
+      text:"Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+  ]
   
 
   ngOnInit(): void {
