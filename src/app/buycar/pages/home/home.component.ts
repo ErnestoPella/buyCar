@@ -1,15 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Status } from '../../interfaces/status.interface';
+import { Car } from '../../interfaces/car.interface';
+import { CarService } from '../../services/car.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit{
 
   button: string = 'menu';
+  cars: Car[] = [];
   status: Status[] = [
     {
       icon: 'home',
@@ -33,7 +36,19 @@ export class HomeComponent {
     }
   ];
   
-  constructor(private routes: Router){}
+
+  ngOnInit(): void {
+    
+    this.carService.getCars()
+    .subscribe( cars => {
+      this.cars = cars;
+    });
+  }
+  
+  constructor( private routes: Router,
+               private carService: CarService){}
+
+
 
   changeButtonIcon(){
     if (this.button === 'menu'){

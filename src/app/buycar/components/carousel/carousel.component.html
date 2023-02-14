@@ -1,24 +1,26 @@
 
-
-<owl-carousel-o class="container" [options]="customOptions">
-  <ng-template carouselSlide *ngFor="let car of cars">
-    <img src="{{car.url}}">
-    <div class="content text-center">
-      <h3 class="fw-bold">New Model</h3>
-      <div class="price fw-bold">Price: <span class="text-warning">${{car.price}}/-</span></div>
-      
-      <p class="fw-bold">
-        New
-        <span class="list-item fw-bold"></span>{{car.year}}
-        <span class="list-item fw-bold"></span>{{car.transmition | uppercase}}
-        <span class="list-item fw-bold"></span>{{car.fuel | uppercase}}
-        <span class="list-item fw-bold"></span>{{car.Maxmph}}
-      </p>
-      <a href="#" class="btn btn-warning">Check out</a>
-    </div>
-  </ng-template>
-</owl-carousel-o>
-
+<div class="conatiner">
+  <owl-carousel-o class="container" [options]="customOptions">
+    <ng-template carouselSlide>
+      <img src="{{car.url}}">
+      <div class="content text-center">
+        <h3 class="fw-bold">New Model</h3>
+        <div class="price fw-bold">Price: <span class="text-warning">${{car.price}}/-</span></div>
+        
+        <p class="fw-bold">
+          New
+          <span class="list-item fw-bold"></span>{{car.year}}
+          <span class="list-item fw-bold"></span>{{car.transmition | uppercase}}
+          <span class="list-item fw-bold"></span>{{car.fuel | uppercase}}
+          <span class="list-item fw-bold"></span>{{car.Maxmph}}
+        </p>
+        <a href="#" class="btn btn-warning">Check out</a>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+  
+  
+</div>
     
 
 

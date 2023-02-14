@@ -83,10 +83,13 @@
 
 
         <section class="carousel">
-            <div class="container-fluid my-5">
-                <h1 class="text-center fw-bold display-1 mb-5">Popular <span class="text-warning">Vehicles</span></h1>
+            <div class="container-fluid">
+                <h1 class="text-center fw-bold ">Popular <span class="text-warning">Vehicles</span></h1>
                 <div class="row">
-                    <app-carousel></app-carousel>
+                    <div class="col-md-3" *ngFor="let car of cars">
+                        <app-carousel [car] = "car"></app-carousel>
+                
+                    </div>
                 </div>
             </div>
             
