@@ -97,6 +97,27 @@ mat-list-item a:hover{
 
 
 
+.subscribes{
+    background: url(../../../../assets/image/letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+}
+
+.input-group{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.input-subscribe{
+    background-color: transparent;
+}
+
+
+
+
+
 @media(max-width: 991px){
 
     .btn-login, .navbar{
