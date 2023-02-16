@@ -1,0 +1,23 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-inner">
+        <div *ngFor="let rev of review"
+             class="{{rev.text}}">
+            <img src="{{rev.icon}}" class="d-initial ">
+            <div class="container" style="width: 50%;">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto consectetur dolorem, nemo quos tempora tempore quibusdam enim cumque pariatur, porro delectus suscipit possimus quidem eius eligendi! Est repellendus amet voluptatem!</p>
+                <h3 class="fw-bold">{{rev.name}}</h3>
+            </div>
+            
+        </div>  
+           
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>

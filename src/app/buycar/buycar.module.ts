@@ -9,13 +9,15 @@ import { StatusCardComponent } from './components/status-card/status-card.compon
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarCardComponent } from './components/car-card/car-card.component';
 import { ServiceCardComponent } from './components/service-card/service-card.component';
+import { ReviewCardComponent } from './components/review-card/review-card.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     StatusCardComponent,
     CarCardComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    ReviewCardComponent
   ],
   imports: [
     CommonModule,

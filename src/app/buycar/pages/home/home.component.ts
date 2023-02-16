@@ -4,6 +4,7 @@ import { Status } from '../../interfaces/status.interface';
 import { Car } from '../../interfaces/car.interface';
 import { CarService } from '../../services/car.service';
 import { Service } from '../../interfaces/service.interface';
+import { Review } from '../../interfaces/review.interface';
 
 @Component({
   selector: 'app-home',
@@ -37,6 +38,45 @@ export class HomeComponent implements OnInit{
     }
   ];
 
+  reviews: Review[] = [
+    {
+      icon:"../../../../assets/image/pic-1.png",
+      name: "John Doe",
+      text:"carousel-item active",
+      stars: 5
+    },
+    {
+      icon:"../../../../assets/image/pic-2.png",
+      name: "John Doe",
+      text:"carousel-item",
+      stars: 5
+    },
+    {
+      icon:"../../../../assets/image/pic-3.png",
+      name: "John Doe",
+      text:"carousel-item",
+      stars: 5
+    },
+    {
+      icon:"../../../../assets/image/pic-4.png",
+      name: "John Doe",
+      text:"carousel-item",
+      stars: 5
+    },
+    {
+      icon:"../../../../assets/image/pic-5.png",
+      name: "John Doe",
+      text:"carousel-item",
+      stars: 5
+    },
+    {
+      icon:"../../../../assets/image/pic-6.png",
+      name: "John Doe",
+      text:"carousel-item",
+      stars: 5
+    },
+  ]
+  
   services: Service[] = [
     {
       icon:"directions_car_filled",
