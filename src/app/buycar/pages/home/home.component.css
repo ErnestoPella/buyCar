@@ -117,6 +117,15 @@ mat-list-item a:hover{
 
 
 
+.footer{
+    background-color: #f9d806;
+}
+
+.footer .container{
+    background-color: #f9d806;
+}
+
+
 
 @media(max-width: 991px){
 

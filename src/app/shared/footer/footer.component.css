@@ -1,0 +1,20 @@
+
+.flex{
+    display:flex;
+}
+li{
+    list-style: none;
+    color: black;
+    display: flex;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    margin-left:5px ;
+}
